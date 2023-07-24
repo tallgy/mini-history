@@ -1,19 +1,17 @@
-# mini-history
+# mini-history v5
 
-基于 history 仓库简易实现的 mini-history 主要为了了解源码实现流程
+## Events.ts
 
-原仓库
-```
-https://github.com/remix-run/history
-```
+对 listen 和 block 的 Event 事件的实现
+
+## index
+
+主要核心方法的实现
+
+createBrowserHistory
 
 
-## 分支
+## utils
 
-### v4
+公用工具的方法实现
 
-基于原 history 4 版本的实现
-
-### v5
-
-基于原 history 5 版本的实现
